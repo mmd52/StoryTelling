@@ -1,0 +1,59 @@
+,Age,Country,Peaceful_Country,Faith_Government,Age_Government,MilitaryBudget_Shocking,Disliked_Country,Dislike_Reason,Dislike_RaceReligion,Peace_Idea,NoPeace_Reason,AffluentCountries_Overstep,News_Source,Trust_Media
+0,30-40,Chile,Yes,Maybe,Senior,Yes,Israel,War,Chinese,Being free of terrorism and war,No education,Yes,Social Media,Yes
+1,30-40,Chile,Yes,No,Senior,Yes,Peru,None,Chinese,Being free of terrorism and war,Money earned from war,Yes,News papers,Maybe
+2,20-30,India,Yes,No,Senior,Yes,None,None,Not specifically,Everyone being treated equally,Politics played by the goverment,Yes,Social Media,Yes
+3,30-40,India,Yes,Yes,Senior,No,China,Politics,,Everyone being treated equally,No education,Yes,TV,No
+4,30-40,India,Yes,Maybe,Senior,Yes,None,None,No,Everyone being treated equally,Lack of strong leaders,Yes,Social Media,No
+5,20-30,India,Yes,No,Senior,Yes,None,None,Any religion that takes extreme measures to assert themselves,Being free of terrorism and war,Terorrism,Maybe,Social Media,Maybe
+6,20-30,India,Yes,No,Senior,Yes,USA,War,None,Being free of terrorism and war,Politics played by the goverment,Yes,News papers,Yes
+7,30-40,Uae,Yes,No,Mix of the both,Yes,None,None,,"As long as you are happy, that is peace for you",Politics played by the goverment,Yes,Social Media,Maybe
+8,20-30,Italy,Yes,No,Senior,Yes,Germany,Politics,,Everyone being treated equally,Money earned from war,Yes,TV,No
+9,20-30,Italy,Yes,No,Mix of the both,No,Germany,Politics,,"As long as you are happy, that is peace for you",Money earned from war,No,TV,Maybe
+10,20-30,Italy,Yes,Maybe,Senior,No,France,Personal negative experience,None,Being free of terrorism and war,Money earned from war,Maybe,News papers,Maybe
+11,20-30,India,Maybe,No,Senior,Yes,None,None,,Being free of terrorism and war,Politics played by the goverment,Yes,Social Media,Maybe
+12,20-30,India,No,No,Senior,Yes,USA,None,,Everyone being treated equally,Politics played by the goverment,Yes,News papers,Maybe
+13,20-30,India,Yes,No,Senior,Yes,Syria,War,,"As long as you are happy, that is peace for you",No education,Maybe,News papers,No
+14,20-30,India,Yes,Yes,Youth,Yes,None,None,N.A.,Everyone being treated equally,No education,Yes,Social Media,Yes
+15,20-30,India,Maybe,No,Senior,No,None,None,,"As long as you are happy, that is peace for you",Politics played by the goverment,Maybe,Social Media,Maybe
+16,40-50,India,No,Maybe,Senior,Yes,Afghanistan,Terrorism,No,Everyone being treated equally,Lack of strong leaders,Yes,TV,Yes
+17,30-40,India,No,No,Mix of the both,No,None,None,No,Everyone being treated equally,Lack of strong leaders,Yes,News papers,Yes
+18,50-60,India,Yes,No,Senior,No,None,War,,Everyone being treated equally,Politics played by the goverment,No,News papers,Maybe
+19,50-60,India,Yes,No,Senior,No,Saudi Arabia,Curbing freedom of speech,"Whahabi
+",Everyone being treated equally,Politics played by the goverment,Maybe,News papers,Yes
+20,20-30,India,Maybe,No,Senior,No,None,None,None,Everyone being treated equally,Politics played by the goverment,Yes,News papers,No
+21,50-60,India,Yes,Yes,Senior,Yes,None,None,,Being free of borders and politics,Politics played by the goverment,No,News papers,Maybe
+22,Greater than 60,India,No,No,Senior,No,Somaliya,Terrorism,No,Everyone being treated equally,Politics played by the goverment,Yes,TV,Maybe
+23,20-30,India,Yes,Maybe,Mix of the both,Yes,None,Terrorism,Selfish behavior and untrustworthy ,Being free of terrorism and war,Terorrism,Yes,Social Media,Maybe
+24,40-50,India,Yes,No,Senior,Yes,Pakistan,Terrorism,,Everyone being treated equally,Politics played by the goverment,Maybe,News papers,Yes
+25,20-30,India,No,No,Senior,Yes,India,Politics,NO,Being free of borders and politics,Politics played by the goverment,Yes,Social Media,Maybe
+26,50-60,India,Yes,No,Senior,No,Saudi Arabia,Curbing freedom of speech,No,Everyone being treated equally,Politics played by the goverment,No,News papers,Yes
+27,20-30,India,Maybe,Maybe,Mix of the both,No,None,None,,Everyone being treated equally,Politics played by the goverment,Maybe,News papers,Maybe
+28,20-30,India,Yes,Maybe,Senior,No,Israel,Terrorism,No,Everyone being treated equally,Terorrism,Maybe,Social Media,Maybe
+29,20-30,India,Maybe,No,Mix of the both,No,India,Politics,,Being free of borders and politics,Politics played by the goverment,Maybe,Social Media,Yes
+30,20-30,India,No,No,Mix of the both,No,None,Personal negative experience,,Everyone being treated equally,No education,Yes,Social Media,Yes
+31,20-30,India,Yes,Maybe,Mix of the both,Yes,None,None,,"As long as you are happy, that is peace for you",No education,Yes,Social Media,Yes
+32,30-40,Turkey,Maybe,No,Mix of the both,Yes,None,None,No,Everyone being treated equally,No education,Maybe,Social Media,Maybe
+33,20-30,India,Yes,No,Senior,Yes,None,Terrorism,,"As long as you are happy, that is peace for you",Terorrism,Yes,Social Media,Yes
+34,20-30,India,No,No,Senior,Yes,Saudi Arabia,Curbing freedom of speech,No,Everyone being treated equally,No education,Yes,Social Media,Maybe
+35,20-30,India,Maybe,No,Senior,No,None,None,,Everyone being treated equally,Politics played by the goverment,Yes,News papers,Maybe
+36,50-60,India,Maybe,No,Mix of the both,No,None,None,None,Being free of terrorism and war,Politics played by the goverment,Yes,News papers,Maybe
+37,20-30,India,Maybe,No,Mix of the both,Yes,None,Politics,,Everyone being treated equally,Politics played by the goverment,Maybe,Social Media,Maybe
+38,20-30,India,Yes,Maybe,Senior,No,None,None,,Everyone being treated equally,Politics played by the goverment,Maybe,Social Media,Maybe
+39,20-30,India,Yes,Maybe,Senior,No,None,None,,Everyone being treated equally,Politics played by the goverment,Maybe,Social Media,Maybe
+40,20-30,Chile,Yes,Maybe,Mix of the both,No,USA,Politics,No,Being free of terrorism and war,Politics played by the goverment,Maybe,News papers,Maybe
+41,40-50,Chile,Yes,No,Mix of the both,Yes,USA,War,"All religions, because they divide, cause wars and lead people to superstition, ignorance, inequality, racism, misogyny, and violence",Everyone being treated equally,No education,Yes,TV,Maybe
+42,30-40,Chile,Yes,No,Mix of the both,No,Israel,Politics,Judios,Everyone being treated equally,Politics played by the goverment,Maybe,Social Media,Maybe
+43,30-40,Chile,Yes,Maybe,Mix of the both,No,None,None,No,Everyone being treated equally,Politics played by the goverment,No,Social Media,Maybe
+44,30-40,Chile,Yes,Maybe,Senior,No,None,None,No,Everyone being treated equally,Politics played by the goverment,Yes,Social Media,Maybe
+45,20-30,India,Maybe,No,Senior,No,Pakistan,Terrorism,No,"As long as you are happy, that is peace for you",Lack of strong leaders,Yes,Social Media,No
+46,30-40,HongKong,Yes,Yes,Senior,No,China,Politics,,Everyone being treated equally,Politics played by the goverment,Yes,Social Media,No
+47,20-30,HongKong,Yes,Yes,Mix of the both,No,China,Politics,,Everyone being treated equally,Politics played by the goverment,Yes,Social Media,No
+48,20-30,Italy,Yes,No,Senior,Yes,France,Personal negative experience,No,Being free of terrorism and war,No education,Yes,Social Media,Maybe
+49,20-30,USA,No,No,Senior,Yes,Iraq,War,,Everyone being treated equally,Money earned from war,No,Social Media,No
+50,50-60,USA,Yes,No,Senior,No,None,None,,Being free of terrorism and war,Money earned from war,Yes,Social Media,Yes
+51,20-30,India,Yes,Maybe,Senior,Yes,None,Terrorism,,Everyone being treated equally,Politics played by the goverment,Yes,Social Media,Maybe
+52,30-40,Chile,Yes,No,Senior,No,Bolivia,Politics,None,Everyone being treated equally,No education,Yes,Social Media,Maybe
+53,40-50,Mexico ,Maybe,No,Mix of the both,No,None,Terrorism,,Being free of terrorism and war,Terorrism,Maybe,Social Media,Yes
+54,20-30,Italy,Yes,No,Mix of the both,Yes,France,Personal negative experience,,Everyone being treated equally,Politics played by the goverment,Yes,Social Media,No
+55,20-30,Italy,Yes,No,Senior,Yes,France,Rivalry in sports,,Everyone being treated equally,Politics played by the goverment,Maybe,Social Media,No
+56,50-60,Italy,Yes,Yes,Senior,No,None,None,,Everyone being treated equally,Money earned from war,Yes,News papers,Yes

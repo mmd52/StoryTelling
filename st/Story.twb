@@ -1,0 +1,1763 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20181.18.0416.1335                               -->
+<workbook original-version='18.1' source-build='2018.1.0 (20181.18.0416.1335)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <SortTagCleanup />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='DataReady' inline='true' name='federated.12973yw14zrk8y14h81rc1l1qgpu' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='DataReady' name='textscan.13mhozi0bkarz814z1oi905njjtc'>
+            <connection class='textscan' directory='C:/Users/moham/Desktop/PYTHON_STUFF/DataStoryTelling/st' filename='DataReady.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.13mhozi0bkarz814z1oi905njjtc' name='DataReady.csv' table='[DataReady#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='Age' ordinal='1' />
+            <column datatype='string' name='Country' ordinal='2' />
+            <column datatype='string' name='Peaceful_Country' ordinal='3' />
+            <column datatype='string' name='Faith_Government' ordinal='4' />
+            <column datatype='string' name='Age_Government' ordinal='5' />
+            <column datatype='string' name='MilitaryBudget_Shocking' ordinal='6' />
+            <column datatype='string' name='Disliked_Country' ordinal='7' />
+            <column datatype='string' name='Dislike_Reason' ordinal='8' />
+            <column datatype='string' name='Dislike_RaceReligion' ordinal='9' />
+            <column datatype='string' name='Peace_Idea' ordinal='10' />
+            <column datatype='string' name='NoPeace_Reason' ordinal='11' />
+            <column datatype='string' name='AffluentCountries_Overstep' ordinal='12' />
+            <column datatype='string' name='News_Source' ordinal='13' />
+            <column datatype='string' name='Trust_Media' ordinal='14' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[DataReady.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[DataReady.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Age]</local-name>
+            <parent-name>[DataReady.csv]</parent-name>
+            <remote-alias>Age</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country]</local-name>
+            <parent-name>[DataReady.csv]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Peaceful_Country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Peaceful_Country]</local-name>
+            <parent-name>[DataReady.csv]</parent-name>
+            <remote-alias>Peaceful_Country</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Faith_Government</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Faith_Government]</local-name>
+            <parent-name>[DataReady.csv]</parent-name>
+            <remote-alias>Faith_Government</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age_Government</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Age_Government]</local-name>
+            <parent-name>[DataReady.csv]</parent-name>
+            <remote-alias>Age_Government</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MilitaryBudget_Shocking</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[MilitaryBudget_Shocking]</local-name>
+            <parent-name>[DataReady.csv]</parent-name>
+            <remote-alias>MilitaryBudget_Shocking</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Disliked_Country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Disliked_Country]</local-name>
+            <parent-name>[DataReady.csv]</parent-name>
+            <remote-alias>Disliked_Country</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dislike_Reason</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Dislike_Reason]</local-name>
+            <parent-name>[DataReady.csv]</parent-name>
+            <remote-alias>Dislike_Reason</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dislike_RaceReligion</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Dislike_RaceReligion]</local-name>
+            <parent-name>[DataReady.csv]</parent-name>
+            <remote-alias>Dislike_RaceReligion</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Peace_Idea</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Peace_Idea]</local-name>
+            <parent-name>[DataReady.csv]</parent-name>
+            <remote-alias>Peace_Idea</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NoPeace_Reason</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[NoPeace_Reason]</local-name>
+            <parent-name>[DataReady.csv]</parent-name>
+            <remote-alias>NoPeace_Reason</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AffluentCountries_Overstep</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[AffluentCountries_Overstep]</local-name>
+            <parent-name>[DataReady.csv]</parent-name>
+            <remote-alias>AffluentCountries_Overstep</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>News_Source</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[News_Source]</local-name>
+            <parent-name>[DataReady.csv]</parent-name>
+            <remote-alias>News_Source</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Trust_Media</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Trust_Media]</local-name>
+            <parent-name>[DataReady.csv]</parent-name>
+            <remote-alias>Trust_Media</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <column datatype='string' name='[AffluentCountries_Overstep]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='string' name='[Disliked_Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal'>
+        <semantic-values semantic-role='[Country].[Name]'>
+          <semantic-value key='&quot;Somaliya&quot;' value='&quot;Somalia&quot;' />
+        </semantic-values>
+      </column>
+      <column datatype='integer' hidden='true' name='[F1]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Faith_Government]' role='dimension' type='nominal' />
+      <column datatype='string' name='[News_Source]' role='dimension' type='nominal' />
+      <column datatype='string' name='[NoPeace_Reason]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='string' name='[Peace_Idea]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Peaceful_Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column-instance column='[AffluentCountries_Overstep]' derivation='None' name='[none:AffluentCountries_Overstep:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Faith_Government]' derivation='None' name='[none:Faith_Government:nk]' pivot='key' type='nominal' />
+      <column-instance column='[News_Source]' derivation='None' name='[none:News_Source:nk]' pivot='key' type='nominal' />
+      <column-instance column='[NoPeace_Reason]' derivation='None' name='[none:NoPeace_Reason:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Peace_Idea]' derivation='None' name='[none:Peace_Idea:nk]' pivot='key' type='nominal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.703704' measure-ordering='alphabetic' measure-percentage='0.296296' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Peace_Idea:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Everyone being treated equally&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;Being free of borders and politics&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;As long as you are happy, that is peace for you&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Being free of terrorism and war&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:AffluentCountries_Overstep:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Maybe&quot;</bucket>
+            </map>
+            <map to='#a3acb9'>
+              <bucket>&quot;No&quot;</bucket>
+            </map>
+            <map to='#c85200'>
+              <bucket>&quot;Yes&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:News_Source:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;News papers&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;TV&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Social Media&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:NoPeace_Reason:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Lack of strong leaders&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Politics played by the goverment&quot;</bucket>
+            </map>
+            <map to='#7b848f'>
+              <bucket>&quot;No education&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Money earned from war&quot;</bucket>
+            </map>
+            <map to='#ffbc79'>
+              <bucket>&quot;Terorrism&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Faith_Government:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Maybe&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Yes&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;No&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Reino Unido&quot;' />
+      </semantic-values>
+    </datasource>
+    <datasource caption='wc' inline='true' name='federated.1ypyxsm0g5435k1frpzhv05om8gt' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='wc' name='textscan.0gmzdtc0o3l42016ihfam077yj99'>
+            <connection class='textscan' directory='C:/Users/moham/Desktop/PYTHON_STUFF/DataStoryTelling/st' filename='wc.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0gmzdtc0o3l42016ihfam077yj99' name='wc.csv' table='[wc#csv]' type='table'>
+          <columns character-set='UTF-8' header='no' locale='en_US'>
+            <column datatype='string' name='F1' ordinal='0' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[wc.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;false&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[wc.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <layout dim-ordering='alphabetic' dim-percentage='0.5' measure-ordering='alphabetic' measure-percentage='0.5' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Reino Unido&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='wc_GovFaith'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='14' italic='true'>Do we have faith in our Goverments?</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='DataReady' name='federated.12973yw14zrk8y14h81rc1l1qgpu' />
+          </datasources>
+          <datasource-dependencies datasource='federated.12973yw14zrk8y14h81rc1l1qgpu'>
+            <column datatype='string' name='[Faith_Government]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column-instance column='[Faith_Government]' derivation='None' name='[none:Faith_Government:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.12973yw14zrk8y14h81rc1l1qgpu].[none:Faith_Government:nk]' direction='DESC' using='[federated.12973yw14zrk8y14h81rc1l1qgpu].[sum:Number of Records:qk]' />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <size column='[federated.12973yw14zrk8y14h81rc1l1qgpu].[sum:Number of Records:qk]' />
+              <text column='[federated.12973yw14zrk8y14h81rc1l1qgpu].[none:Faith_Government:nk]' />
+              <color column='[federated.12973yw14zrk8y14h81rc1l1qgpu].[none:Faith_Government:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='user' />
+                <format attr='color' value='#ffffff' />
+                <format attr='font-weight' value='bold' />
+                <format attr='font-style' value='italic' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+    </worksheet>
+    <worksheet name='ws_AffluentOverstep'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='14' italic='true'>We all know and believe that most affluent Countries overstep their boundaries in the name of &quot;FREEDOM&quot;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='DataReady' name='federated.12973yw14zrk8y14h81rc1l1qgpu' />
+          </datasources>
+          <datasource-dependencies datasource='federated.12973yw14zrk8y14h81rc1l1qgpu'>
+            <column datatype='string' name='[AffluentCountries_Overstep]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column-instance column='[AffluentCountries_Overstep]' derivation='None' name='[none:AffluentCountries_Overstep:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.12973yw14zrk8y14h81rc1l1qgpu].[none:AffluentCountries_Overstep:nk]' direction='ASC' using='[federated.12973yw14zrk8y14h81rc1l1qgpu].[sum:Number of Records:qk]' />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <size column='[federated.12973yw14zrk8y14h81rc1l1qgpu].[sum:Number of Records:qk]' />
+              <text column='[federated.12973yw14zrk8y14h81rc1l1qgpu].[none:AffluentCountries_Overstep:nk]' />
+              <color column='[federated.12973yw14zrk8y14h81rc1l1qgpu].[none:AffluentCountries_Overstep:nk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run>&lt;</run>
+                <run>[federated.12973yw14zrk8y14h81rc1l1qgpu].[none:AffluentCountries_Overstep:nk]</run>
+                <run>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='user' />
+                <format attr='color' value='#ffffff' />
+                <format attr='font-weight' value='bold' />
+                <format attr='font-style' value='italic' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+    </worksheet>
+    <worksheet name='ws_DislikedCountry'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='14' italic='true'>Countries we seem to dislike</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='DataReady' name='federated.12973yw14zrk8y14h81rc1l1qgpu' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.12973yw14zrk8y14h81rc1l1qgpu'>
+            <column datatype='string' name='[Disliked_Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal'>
+              <semantic-values semantic-role='[Country].[Name]'>
+                <semantic-value key='&quot;Somaliya&quot;' value='&quot;Somalia&quot;' />
+              </semantic-values>
+            </column>
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column-instance column='[Disliked_Country]' derivation='None' name='[none:Disliked_Country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.12973yw14zrk8y14h81rc1l1qgpu].[Latitude (generated)]' included-values='non-null' />
+          <filter class='quantitative' column='[federated.12973yw14zrk8y14h81rc1l1qgpu].[Longitude (generated)]' included-values='non-null' />
+          <slices>
+            <column>[federated.12973yw14zrk8y14h81rc1l1qgpu].[Latitude (generated)]</column>
+            <column>[federated.12973yw14zrk8y14h81rc1l1qgpu].[Longitude (generated)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.12973yw14zrk8y14h81rc1l1qgpu].[sum:Number of Records:qk]' num-steps='2' palette='gray_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='omit-on-special' field='[federated.12973yw14zrk8y14h81rc1l1qgpu].[none:Disliked_Country:nk]' value='false' />
+            <format attr='break-on-special' field='[federated.12973yw14zrk8y14h81rc1l1qgpu].[none:Disliked_Country:nk]' value='false' />
+            <format attr='show-null-value-warning' field='[federated.12973yw14zrk8y14h81rc1l1qgpu].[none:Disliked_Country:nk]' value='false' />
+          </style-rule>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='tab_base' value='true' />
+            <format attr='enabled' id='um_lcover' value='true' />
+            <format attr='enabled' id='tab_coastline' value='false' />
+            <format attr='enabled' id='pp2_line' value='false' />
+            <format attr='enabled' id='light_adm0_bnd' value='false' />
+            <format attr='enabled' id='light_adm0_lbl' value='false' />
+            <format attr='enabled' id='um_adm0_bnd' value='true' />
+            <format attr='enabled' id='um_adm0_lbl' value='true' />
+            <format attr='enabled' id='light_pp2_statebounds' value='false' />
+            <format attr='enabled' id='light_pp2_statelabels' value='false' />
+            <format attr='enabled' id='pp2_adminlabels' value='false' />
+            <format attr='enabled' id='pp2_statebounds' value='true' />
+            <format attr='enabled' id='pp2_statelabels' value='true' />
+            <format attr='enabled' id='countybounds' value='false' />
+            <format attr='enabled' id='countylabels' value='false' />
+            <format attr='enabled' id='zipbounds' value='false' />
+            <format attr='enabled' id='ziplabels' value='false' />
+            <format attr='enabled' id='tab_areabounds' value='false' />
+            <format attr='enabled' id='tab_arealabels' value='false' />
+            <format attr='enabled' id='tab_msabounds' value='false' />
+            <format attr='enabled' id='tab_msalabels' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Multipolygon' />
+            <encodings>
+              <color column='[federated.12973yw14zrk8y14h81rc1l1qgpu].[sum:Number of Records:qk]' />
+              <lod column='[federated.12973yw14zrk8y14h81rc1l1qgpu].[none:Disliked_Country:nk]' />
+              <geometry column='[federated.12973yw14zrk8y14h81rc1l1qgpu].[Geometry (generated)]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.12973yw14zrk8y14h81rc1l1qgpu].[Latitude (generated)]</rows>
+        <cols>[federated.12973yw14zrk8y14h81rc1l1qgpu].[Longitude (generated)]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='ws_NewsSource'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='14' italic='true'>This is partly due to Fake News, </run>
+            <run bold='true' fontalignment='1' fontcolor='#f28e2b' fontsize='20' italic='true'>42%</run>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='14' italic='true'> of fake news comes from Social Channels, and guess where most of us like to get our news from</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='DataReady' name='federated.12973yw14zrk8y14h81rc1l1qgpu' />
+          </datasources>
+          <datasource-dependencies datasource='federated.12973yw14zrk8y14h81rc1l1qgpu'>
+            <column datatype='string' name='[News_Source]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column-instance column='[News_Source]' derivation='None' name='[none:News_Source:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[pcto:sum:Number of Records:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.12973yw14zrk8y14h81rc1l1qgpu].[none:News_Source:nk]' direction='DESC' using='[federated.12973yw14zrk8y14h81rc1l1qgpu].[sum:Number of Records:qk]' />
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.12973yw14zrk8y14h81rc1l1qgpu].[sum:Number of Records:qk]' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.12973yw14zrk8y14h81rc1l1qgpu].[none:News_Source:nk]' />
+              <text column='[federated.12973yw14zrk8y14h81rc1l1qgpu].[pcto:sum:Number of Records:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='user' />
+                <format attr='font-size' value='8' />
+                <format attr='font-weight' value='bold' />
+                <format attr='font-style' value='italic' />
+                <format attr='color' value='#ffffff' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols>[federated.12973yw14zrk8y14h81rc1l1qgpu].[sum:Number of Records:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='ws_PeaceIdea'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='14' italic='true'>Most of us share the same idea of Peace</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='DataReady' name='federated.12973yw14zrk8y14h81rc1l1qgpu' />
+          </datasources>
+          <datasource-dependencies datasource='federated.12973yw14zrk8y14h81rc1l1qgpu'>
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column datatype='string' name='[Peace_Idea]' role='dimension' type='nominal' />
+            <column-instance column='[Peace_Idea]' derivation='None' name='[none:Peace_Idea:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[pcto:sum:Number of Records:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.12973yw14zrk8y14h81rc1l1qgpu].[none:Peace_Idea:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Everyone being treated equally&quot;</bucket>
+              <bucket>&quot;Being free of terrorism and war&quot;</bucket>
+              <bucket>&quot;As long as you are happy, that is peace for you&quot;</bucket>
+              <bucket>&quot;Being free of borders and politics&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </manual-sort>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <size column='[federated.12973yw14zrk8y14h81rc1l1qgpu].[sum:Number of Records:qk]' />
+              <text column='[federated.12973yw14zrk8y14h81rc1l1qgpu].[none:Peace_Idea:nk]' />
+              <text column='[federated.12973yw14zrk8y14h81rc1l1qgpu].[pcto:sum:Number of Records:qk]' />
+              <color column='[federated.12973yw14zrk8y14h81rc1l1qgpu].[none:Peace_Idea:nk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run>&lt;[federated.12973yw14zrk8y14h81rc1l1qgpu].[none:Peace_Idea:nk]&gt;</run>
+                <run>Æ&#10;</run>
+                <run>&lt;[federated.12973yw14zrk8y14h81rc1l1qgpu].[pcto:sum:Number of Records:qk]&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='user' />
+                <format attr='font-style' value='italic' />
+                <format attr='font-weight' value='bold' />
+                <format attr='text-decoration' value='none' />
+                <format attr='color' value='#ffffff' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+    </worksheet>
+    <worksheet name='ws_PeaceUnatt'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='14' italic='true'>But why we cant achieve world peace</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='DataReady' name='federated.12973yw14zrk8y14h81rc1l1qgpu' />
+          </datasources>
+          <datasource-dependencies datasource='federated.12973yw14zrk8y14h81rc1l1qgpu'>
+            <column datatype='string' name='[NoPeace_Reason]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column-instance column='[NoPeace_Reason]' derivation='None' name='[none:NoPeace_Reason:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[pcto:sum:Number of Records:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <size column='[federated.12973yw14zrk8y14h81rc1l1qgpu].[sum:Number of Records:qk]' />
+              <text column='[federated.12973yw14zrk8y14h81rc1l1qgpu].[none:NoPeace_Reason:nk]' />
+              <text column='[federated.12973yw14zrk8y14h81rc1l1qgpu].[pcto:sum:Number of Records:qk]' />
+              <color column='[federated.12973yw14zrk8y14h81rc1l1qgpu].[none:NoPeace_Reason:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='user' />
+                <format attr='font-weight' value='bold' />
+                <format attr='font-style' value='italic' />
+                <format attr='color' value='#ffffff' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+    </worksheet>
+    <worksheet name='ws_TrustMedia'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='14' italic='true'>Its obvious that we are begining to lose trust in modern media after this</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='DataReady' name='federated.12973yw14zrk8y14h81rc1l1qgpu' />
+          </datasources>
+          <datasource-dependencies datasource='federated.12973yw14zrk8y14h81rc1l1qgpu'>
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column datatype='string' name='[Trust_Media]' role='dimension' type='nominal' />
+            <column-instance column='[Trust_Media]' derivation='None' name='[none:Trust_Media:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.12973yw14zrk8y14h81rc1l1qgpu].[none:Trust_Media:nk]' />
+              <wedge-size column='[federated.12973yw14zrk8y14h81rc1l1qgpu].[sum:Number of Records:qk]' />
+              <size column='[federated.12973yw14zrk8y14h81rc1l1qgpu].[sum:Number of Records:qk]' />
+              <text column='[federated.12973yw14zrk8y14h81rc1l1qgpu].[none:Trust_Media:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+    </worksheet>
+    <worksheet name='ws_WC'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='14' italic='true'>Why we think these countries are not good</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='wc' name='federated.1ypyxsm0g5435k1frpzhv05om8gt' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ypyxsm0g5435k1frpzhv05om8gt'>
+            <column datatype='string' name='[F1]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column-instance column='[F1]' derivation='None' name='[none:F1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1ypyxsm0g5435k1frpzhv05om8gt].[sum:Number of Records:qk]' palette='orange_blue_diverging_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Text' />
+            <encodings>
+              <color column='[federated.1ypyxsm0g5435k1frpzhv05om8gt].[sum:Number of Records:qk]' />
+              <size column='[federated.1ypyxsm0g5435k1frpzhv05om8gt].[sum:Number of Records:qk]' />
+              <text column='[federated.1ypyxsm0g5435k1frpzhv05om8gt].[none:F1:nk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true'>&lt;</run>
+                <run bold='true'>[federated.1ypyxsm0g5435k1frpzhv05om8gt].[none:F1:nk]</run>
+                <run bold='true'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='AWATD'>
+      <style />
+      <size maxheight='2500' maxwidth='1100' minheight='2500' minwidth='1000' sizing-mode='range' />
+      <zones>
+        <zone h='100000' id='2' type='layout-basic' w='100000' x='0' y='0'>
+          <zone h='79760' id='40' param='horz' type='layout-flow' w='98546' x='727' y='2920'>
+            <zone h='79760' id='38' type='layout-basic' w='98546' x='727' y='2920'>
+              <zone h='60004' id='35' param='horz' type='layout-flow' w='98546' x='727' y='2920'>
+                <zone h='60004' id='33' type='layout-basic' w='98546' x='727' y='2920'>
+                  <zone h='46678' id='31' param='horz' type='layout-flow' w='98546' x='727' y='2920'>
+                    <zone h='46678' id='28' param='horz' type='layout-flow' w='98546' x='727' y='2920'>
+                      <zone h='46678' id='24' param='horz' type='layout-flow' w='98546' x='727' y='2920'>
+                        <zone h='46678' id='22' type='layout-basic' w='98546' x='727' y='2920'>
+                          <zone h='34824' id='20' param='horz' type='layout-flow' w='98546' x='727' y='2920'>
+                            <zone h='34824' id='18' type='layout-basic' w='98546' x='727' y='2920'>
+                              <zone h='25566' id='15' param='horz' type='layout-flow' w='98546' x='727' y='2920'>
+                                <zone h='25566' id='12' param='horz' type='layout-flow' w='98546' x='727' y='2920'>
+                                  <zone h='25566' id='10' type='layout-basic' w='98546' x='727' y='2920'>
+                                    <zone h='22324' id='8' param='horz' type='layout-flow' w='98546' x='727' y='2920'>
+                                      <zone h='22324' id='5' param='horz' type='layout-flow' w='98546' x='727' y='2920'>
+                                        <zone h='22324' id='3' type='layout-basic' w='98546' x='727' y='2920'>
+                                          <zone h='22324' id='1' name='ws_PeaceIdea' w='49271' x='727' y='2920'>
+                                            <zone-style>
+                                              <format attr='border-color' value='#000000' />
+                                              <format attr='border-style' value='none' />
+                                              <format attr='border-width' value='0' />
+                                              <format attr='margin' value='4' />
+                                            </zone-style>
+                                          </zone>
+                                          <zone h='22324' id='6' name='ws_AffluentOverstep' w='49275' x='49998' y='2920'>
+                                            <zone-style>
+                                              <format attr='border-color' value='#000000' />
+                                              <format attr='border-style' value='none' />
+                                              <format attr='border-width' value='0' />
+                                              <format attr='margin' value='4' />
+                                            </zone-style>
+                                          </zone>
+                                        </zone>
+                                      </zone>
+                                    </zone>
+                                    <zone forceUpdate='true' h='3242' id='16' type='text' w='98546' x='727' y='25244'>
+                                      <formatted-text>
+                                        <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Tableau Light' fontsize='14' italic='true'>If we all think alike then do we dislike a Country or a Race for genuine reasons or it is something fed into our minds?</run>
+                                      </formatted-text>
+                                      <zone-style>
+                                        <format attr='border-color' value='#000000' />
+                                        <format attr='border-style' value='none' />
+                                        <format attr='border-width' value='0' />
+                                        <format attr='margin' value='4' />
+                                      </zone-style>
+                                    </zone>
+                                  </zone>
+                                </zone>
+                              </zone>
+                              <zone h='9258' id='17' name='ws_DislikedCountry' w='49271' x='727' y='28486'>
+                                <zone-style>
+                                  <format attr='border-color' value='#000000' />
+                                  <format attr='border-style' value='none' />
+                                  <format attr='border-width' value='0' />
+                                  <format attr='margin' value='4' />
+                                </zone-style>
+                              </zone>
+                              <zone h='9258' id='13' name='ws_WC' w='49275' x='49998' y='28486'>
+                                <zone-style>
+                                  <format attr='border-color' value='#000000' />
+                                  <format attr='border-style' value='none' />
+                                  <format attr='border-width' value='0' />
+                                  <format attr='margin' value='4' />
+                                </zone-style>
+                              </zone>
+                            </zone>
+                          </zone>
+                          <zone h='11854' id='21' name='ws_NewsSource' w='57812' x='727' y='37744'>
+                            <zone-style>
+                              <format attr='border-color' value='#000000' />
+                              <format attr='border-style' value='none' />
+                              <format attr='border-width' value='0' />
+                              <format attr='margin' value='4' />
+                            </zone-style>
+                          </zone>
+                          <zone h='11854' id='26' name='ws_TrustMedia' w='40734' x='58539' y='37744'>
+                            <zone-style>
+                              <format attr='border-color' value='#000000' />
+                              <format attr='border-style' value='none' />
+                              <format attr='border-width' value='0' />
+                              <format attr='margin' value='4' />
+                            </zone-style>
+                          </zone>
+                        </zone>
+                      </zone>
+                    </zone>
+                  </zone>
+                  <zone forceUpdate='' h='13326' id='36' param='https://drive.google.com/file/d/1RDlNPOPvVyg0DEPJxOO7aak_1xG6lT4U/view?usp=sharing' type='web' w='98546' x='727' y='49598'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                </zone>
+              </zone>
+              <zone h='19756' id='37' name='wc_GovFaith' w='49274' x='49999' y='62924'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='19756' id='32' name='ws_PeaceUnatt' w='49272' x='727' y='62924'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone forceUpdate='true' h='17000' id='41' type='text' w='98546' x='727' y='82680'>
+            <formatted-text>
+              <run bold='true' fontalignment='1' fontcolor='#f28e2b' fontname='Tableau Light' fontsize='14' italic='true'>A Government is made by the people which is used to serve the people, However that is not the case anymore.</run>
+              <run fontalignment='1'>Æ&#10;&#10;</run>
+              <run bold='true' fontalignment='1' fontcolor='#4e79a7' fontname='Tableau Light' fontsize='14' italic='true'>News used to be dull and boring, now its entertaining due to distortion of facts.</run>
+              <run fontalignment='1'>Æ&#10;&#10;</run>
+              <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Tableau Light' fontsize='12'>The impact of both these things</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Tableau Light' fontsize='12'>1) Wrong interpretations of Countries, Race, Religion</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Tableau Light' fontsize='12'>2) Unwanted increase of hate crimes amongst the extrimist uneducated population</run>
+              <run fontalignment='1'>Æ&#10;&#10;</run>
+              <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Tableau Light' fontsize='12'>But what we can do to stop this</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Tableau Light' fontsize='12'>1) Stop absorbing news from social media and biased news firms</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Tableau Light' fontsize='12'>2) Stop forwarding incorrect posts, your like is not going to stop a war in Syria -&gt; So seriously grow up</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Tableau Light' fontsize='12'>3) Read about the world a bit more (Usefull tip : If you found it a tad bit boring , its true)</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Tableau Light' fontsize='12'>4) Stop judging a book by its cover. Meet people understand their point of view and any difficulty they may have faced before jumping to conclusions and making stupid decisions.</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='2600' id='42' type='text' w='98546' x='727' y='320'>
+            <formatted-text>
+              <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='15' italic='true'>Are we all that different?</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='2560' id='25' name='ws_NewsSource' pane-specification-id='0' param='[federated.12973yw14zrk8y14h81rc1l1qgpu].[none:News_Source:nk]' show-title='false' type='color' w='12727' x='48455' y='41280' />
+      </zones>
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='63'>
+    <window class='dashboard' maximized='true' name='AWATD'>
+      <viewpoints>
+        <viewpoint name='wc_GovFaith'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='ws_AffluentOverstep'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='ws_DislikedCountry'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='ws_NewsSource'>
+          <zoom type='entire-view' />
+          <highlight field='[federated.12973yw14zrk8y14h81rc1l1qgpu].[none:News_Source:nk]'>
+            <bucket-selection />
+          </highlight>
+        </viewpoint>
+        <viewpoint name='ws_PeaceIdea'>
+          <zoom type='entire-view' />
+          <highlight field='[federated.12973yw14zrk8y14h81rc1l1qgpu].[none:Peace_Idea:nk]'>
+            <bucket-selection />
+          </highlight>
+        </viewpoint>
+        <viewpoint name='ws_PeaceUnatt'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='ws_TrustMedia'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='ws_WC'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <device-preview selected='Desktop' />
+    </window>
+    <window class='worksheet' hidden='true' name='wc_GovFaith'>
+      <cards>
+        <edge name='left'>
+          <strip size='200'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='200'>
+            <card pane-specification-id='0' param='[federated.12973yw14zrk8y14h81rc1l1qgpu].[none:Faith_Government:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.12973yw14zrk8y14h81rc1l1qgpu].[none:Faith_Government:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+    <window class='worksheet' hidden='true' name='ws_AffluentOverstep'>
+      <cards>
+        <edge name='left'>
+          <strip size='200'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='200'>
+            <card pane-specification-id='0' param='[federated.12973yw14zrk8y14h81rc1l1qgpu].[none:AffluentCountries_Overstep:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.12973yw14zrk8y14h81rc1l1qgpu].[none:AffluentCountries_Overstep:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+    <window class='worksheet' hidden='true' name='ws_DislikedCountry'>
+      <cards>
+        <edge name='left'>
+          <strip size='200'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='200'>
+            <card pane-specification-id='0' param='[federated.12973yw14zrk8y14h81rc1l1qgpu].[sum:Number of Records:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.12973yw14zrk8y14h81rc1l1qgpu].[none:Disliked_Country:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+    <window class='worksheet' hidden='true' name='ws_NewsSource'>
+      <cards>
+        <edge name='left'>
+          <strip size='200'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='200'>
+            <card pane-specification-id='0' param='[federated.12973yw14zrk8y14h81rc1l1qgpu].[none:News_Source:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.12973yw14zrk8y14h81rc1l1qgpu].[none:News_Source:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+    <window class='worksheet' hidden='true' name='ws_PeaceIdea'>
+      <cards>
+        <edge name='left'>
+          <strip size='200'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='200'>
+            <card pane-specification-id='0' param='[federated.12973yw14zrk8y14h81rc1l1qgpu].[none:Peace_Idea:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.12973yw14zrk8y14h81rc1l1qgpu].[none:Peace_Idea:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+    <window class='worksheet' hidden='true' name='ws_PeaceUnatt'>
+      <cards>
+        <edge name='left'>
+          <strip size='200'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='200'>
+            <card pane-specification-id='0' param='[federated.12973yw14zrk8y14h81rc1l1qgpu].[none:NoPeace_Reason:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.12973yw14zrk8y14h81rc1l1qgpu].[none:Dislike_Reason:nk]</field>
+            <field>[federated.12973yw14zrk8y14h81rc1l1qgpu].[none:NoPeace_Reason:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+    <window class='worksheet' hidden='true' name='ws_TrustMedia'>
+      <cards>
+        <edge name='left'>
+          <strip size='250'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='250'>
+            <card pane-specification-id='0' param='[federated.12973yw14zrk8y14h81rc1l1qgpu].[none:Trust_Media:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.12973yw14zrk8y14h81rc1l1qgpu].[sum:Number of Records:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.12973yw14zrk8y14h81rc1l1qgpu].[none:Trust_Media:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+    <window class='worksheet' hidden='true' name='ws_WC'>
+      <cards>
+        <edge name='left'>
+          <strip size='200'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='200'>
+            <card pane-specification-id='0' param='[federated.1ypyxsm0g5435k1frpzhv05om8gt].[sum:Number of Records:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1ypyxsm0g5435k1frpzhv05om8gt].[none:F1:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='AWATD' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>

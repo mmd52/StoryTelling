@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<title>ARE WE ALL THAT DIFFERENT?</title>
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+
+<link rel="stylesheet" href="css/magnific-popup.css">
+
+<link rel="stylesheet" href="css/owl.theme.css">
+<link rel="stylesheet" href="css/owl.carousel.css">
+
+<link href='https://fonts.googleapis.com/css?family=Unica+One' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700' rel='stylesheet' type='text/css'>
+
+<!-- Main css -->
+<link rel="stylesheet" href="css/style.css">
+<script src="http://echarts.baidu.com/dist/echarts.min.js"></script>
+</head>
+<body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+
+
+<!-- PRE LOADER -->
+
+<div class="preloader">
+     <div class="sk-spinner sk-spinner-pulse"></div>
+</div>
+
+
+
+<!-- Navigation Section -->
+
+<div class="navbar navbar-default navbar-fixed-top">
+	<div class="container">
+
+		<div class="navbar-header">
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+			</button>
+			<a href="index.html" class="navbar-brand"><span>ARE WE ALL THAT</span> DIFFERENT</a>
+		</div>
+
+		<div class="collapse navbar-collapse">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#home" class="smoothScroll">Peace-Idea</a></li>
+				<li><a href="#about" class="smoothScroll">Dislike Reason</a></li>
+				<li><a href="#screenshot" class="smoothScroll">Media</a></li>
+                <li><a href="#pricing" class="smoothScroll">Goverment</a></li>
+                <li><a href="#newsletter" class="smoothScroll">Message</a></li>
+        		
+			</ul>
+		</div>
+
+	</div>
+</div>
+
+
+<!-- Home Section -->
+
+<section id="home" class="main">
+     <div class="overlay"></div>
+	<div class="container">
+		<div class="row">
+               <h1 class="wow fadeInUp" data-wow-delay="0.6s">Most of us share the same idea of Peace</h1>
+               <div id="main" style="width: 600px;height:400px;"class="wow fadeInUp col-md-6 col-sm-5 col-xs-10 col-xs-offset-1 col-sm-offset-0" data-wow-delay="0.2s">
+                    
+               </div>
+                    <script type="text/javascript">
+                    // based on prepared DOM, initialize echarts instance
+                    var myChart = echarts.init(document.getElementById('main'));
+                    var dataStyle = {
+                                        normal: {
+                                        label: {show:false},
+                                        labelLine: {show:false}
+                                        }
+                                   };
+                    var placeHolderStyle = {
+                                             normal : {
+                                             color: 'rgba(0,0,0,0)',
+                                             label: {show:false},
+                                             labelLine: {show:false}
+                                             },
+                                            emphasis : {
+                                                color: 'rgba(0,0,0,0)'
+                                             }
+                                        };
+               option = {
+                   title: {
+                       text: 'Idea of Peace',
+                       x: 'center',
+                       y: 'center',
+                       itemGap: 20,
+                       textStyle : {
+                           color : '#ffffff',
+                           fontFamily : 'Arial',
+                           fontSize : 30,
+                           fontWeight : 'bolder'
+                       }
+                   },
+                   tooltip : {
+                       show: true,
+                       formatter: "{a} <br/>{b} : {c} ({d}%)"
+                   },
+                   legend: {
+                       orient : 'vertical',
+                       x : document.getElementById('main').offsetWidth / 2,
+                       y : 45,
+                       itemGap:12,
+                       data:['Everyone Being Treated Equally','Being free of terrorism and war','Your happines is peace for you','Being free of borders and politics']
+                   },
+                   toolbox: {
+                       show : true,
+                       feature : {
+                           mark : {show: true},
+                           dataView : {show: false, readOnly: false},
+                           restore : {show: false},
+                           saveAsImage : {show: false}
+                       }
+                   },
+                   series : [
+                       {
+                           name:'Everyone Being Treated Equally',
+                           type:'pie',
+                           color:'#33cccc',
+                           clockWise:false,
+                           radius : [125, 150],
+                           itemStyle : dataStyle,
+                           data:[
+                               {
+                                   value:61.4,
+                                   name:'Everyone Being Treated Equally'
+                               },
+                               {
+                                   value:38.6,
+                                   name:'',
+                                   itemStyle : placeHolderStyle
+                               }
+                           ]
+                       },
+                       {
+                           name:'Being free of terrorism and war',
+                           type:'pie',
+                           color:'#4d79ff',
+                           clockWise:false,
+                           radius : [100, 125],
+                           itemStyle : dataStyle,
+                           data:[
+                               {
+                                   value:21.05, 
+                                   name:'Being free of terrorism and war'
+                               },
+                               {
+                                   value:78.95,
+                                   name:'',
+                                   itemStyle : placeHolderStyle
+                               }
+                           ]
+                       },
+                       {
+                           name:'Your happines is peace for you',
+                           type:'pie',
+                           color:'orange',
+                           clockWise:false,
+                           radius : [75, 100],
+                           itemStyle : dataStyle,
+                           data:[
+                               {
+                                   value:12.28, 
+                                   name:'Your happines is peace for you'
+                               },
+                               {
+                                   value:87.72,
+                                   name:'',
+                                   itemStyle : placeHolderStyle
+                               }
+                           ]
+                       },
+                       {
+                           name:'Being free of borders and politics',
+                           type:'pie',
+                           color:'black',
+                           clockWise:false,
+                           radius : [50, 75],
+                           itemStyle : dataStyle,
+                           data:[
+                               {
+                                   value:5.26, 
+                                   name:'Being free of borders and politics'
+                               },
+                               {
+                                   value:94.74,
+                                   name:'',
+                                   itemStyle : placeHolderStyle
+                               }
+                           ]
+                       }
+                   ]
+               };
+                       // use configuration item and data specified to show chart
+                       myChart.setOption(option);
+          </script>
+          </div></div>
+               <div class="col-md-6 col-sm-7 col-xs-12">
+                    <div class="home-thumb">
+                         <h2 class="wow fadeInUp" data-wow-delay="0.6s">We all know and <h1 class="wow fadeInUp" data-wow-delay="0.6s">60%</h1><h2 class="wow fadeInUp" data-wow-delay="0.6s">of us believe that some affluent countries overstep their boundaries</h2>
+                    </div>
+               </div>
+
+		</div>
+	</div>
+</section>
+
+
+<!-- About Section -->
+
+<section id="about">
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-12 col-sm-12">
+                    <div class="wow bounceIn section-title">
+                         <h2>If we all think alike then why do we dislike a particular race, religion? Is it a genuine reason or something fed into our minds?</h2>
+                         <hr>
+                    </div>
+               </div>
+            
+               <div  data-wow-delay="0.4s">
+                    <div>
+                         <img src="images/worldMap.jpg" class="img-responsive" alt="Team">
+                    </div>
+               </div>
+               
+
+                <div  data-wow-delay="0.4s">
+                    <div >
+                         <img src="images/WC.jpg" class="img-responsive" alt="Team" >
+                              
+                    </div>
+               </div>
+     
+
+          </div>
+     </div>
+</section>
+
+
+<!-- Divider Section -->
+
+<section id="divider">
+     <div class="container">
+          <div class="row">
+
+               <div >
+                    <h2 class="wow fadeInUp" data-wow-delay="0.4s">This is partly due to fake news </h2><h1 class="wow fadeInUp" data-wow-delay="0.6s">42%</h1><h2 class="wow fadeInUp" data-wow-delay="0.4s"> of fake news comes from social channels and guess where most of us like to get our news from
+               </div>
+               <div id="rol" style="width: 900px;height:200px;"class="col-md-offset-2 col-md-8 col-sm-12"></div>
+    <script type="text/javascript">
+        // based on prepared DOM, initialize echarts instance
+        var myChart = echarts.init(document.getElementById('rol'));
+
+        option = {
+    tooltip : {
+        trigger: 'axis',
+        axisPointer : {            
+            type : 'shadow'        
+        }
+    },
+    legend: {
+        data: ['Social Media', 'News papers','TV']
+    },
+    grid: {
+        left: '3%',
+        right: '4%',
+        bottom: '3%',
+        containLabel: true
+    },
+    xAxis:  {
+        type: 'value'
+    },
+    yAxis: {
+        type: 'category',
+        data: ['News Source']
+    },
+    series: [
+        {
+            name: 'TV',
+            type: 'bar',
+            stack: '总量',
+            label: {
+                normal: {
+                    show: true,
+                    position: 'insideRight'
+                }
+            },
+            data: [10.53]
+        },
+        {
+            name: 'News papers',
+            type: 'bar',
+            stack: '总量',
+            label: {
+                normal: {
+                    show: true,
+                    position: 'insideRight'
+                }
+            },
+            data: [29.82]
+        },
+        {
+            name: 'Social Media',
+            type: 'bar',
+            stack: '总量',
+            label: {
+                normal: {
+                    show: true,
+                    position: 'insideRight'
+                }
+            },
+            data: [59.65]
+        }
+    ]
+};
+        // use configuration item and data specified to show chart
+        myChart.setOption(option);
+    </script>
+
+          </div>
+     </div>
+</section>
+
+
+<!-- Screenshot Section -->
+
+<section id="screenshot">
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-offset-2 col-md-8 col-sm-12">
+                    <div class="section-title">
+                         <h1><a href="https://drive.google.com/open?id=1RDlNPOPvVyg0DEPJxOO7aak_1xG6lT4U">How Goverments are also messing up</a></h1>
+                    </div>
+                    <img src="images/next.jpg" class="img-responsive" alt="Team">
+               </div>
+
+               
+          </div>
+     </div>
+</section>
+
+
+
+<!-- Pricing Section -->
+
+<section id="pricing">
+     <div class="container">
+          <div class="row">
+
+                <div class="col-md-12 col-sm-12">
+                    <div class="section-title">
+                         <h1>A Government is made by the people which is used to serve the people, However that is not the case anymore.</h1>
+                         <hr>
+                         <h2 class="wow fadeInUp" data-wow-delay="0.4s">The impact of both these things</h2>
+                         <h2 class="wow fadeInUp" data-wow-delay="0.4s">1) Wrong interpretations of Countries, Race, Religion</h2>
+                         <h2 class="wow fadeInUp" data-wow-delay="0.4s">2) Unwanted increase of hate crimes amongst the extrimist uneducated population</h2>
+                         <hr>
+                         <h2 class="wow fadeInUp" data-wow-delay="0.4s">But what we can do to stop this</h2>
+                         <h2 class="wow fadeInUp" data-wow-delay="0.4s">1) Stop absorbing news from social media and biased news firms</h2>
+                         <h2 class="wow fadeInUp" data-wow-delay="0.4s">2) Stop forwarding incorrect posts, your like is not going to stop a war in Syria -> So seriously grow up</h2>
+                         <h2 class="wow fadeInUp" data-wow-delay="0.4s">3) Read about the world a bit more (Usefull tip : If you found it a tad bit boring , its true)</h2>
+                         <h2 class="wow fadeInUp" data-wow-delay="0.4s">4) Stop judging a book by its cover. Meet people understand their point of view and any difficulty they may have faced before jumping to conclusions and making stupid decisions.</h2>
+                    </div>
+               </div>
+
+               <div class="wow fadeInUp col-md-4 col-sm-4" data-wow-delay="0.4s">
+                    <div class="pricing-plan">
+                         
+                    </div>
+               </div>
+
+               
+
+          </div>
+     </div>
+</section>
+
+
+<!-- Newsletter Section -->
+
+<section id="newsletter">
+     <div class="overlay"></div>
+     <div class="container">
+          <div class="row">
+
+               <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.4s">
+                    <div class="about-thumb">
+                         <img src="images/team-img1.jpg" class="img-responsive" alt="Team">
+                              <div class="about-overlay">
+                                   <h3>Mohammed Topiwalla</h3>
+                                   <h4>Data Scientist</h4>
+                                   <ul class="social-icon">
+                                        <li><a href="https://github.com/mmd52" >Github</a></li>
+                                        <li><a href="https://datascience52.wordpress.com">Website</a></li>
+                                        
+                                   </ul>
+                              </div>
+                    </div>
+               </div>
+
+          </div>
+     </div>
+</section>
+
+
+<!-- Footer Section -->
+
+<footer>
+	<div class="container">
+		<div class="row">
+
+               <div class="col-md-8 col-sm-6">
+                    <div class="wow fadeInUp footer-copyright" data-wow-delay="0.4s">
+                         <p>Copyright &copy; Mohammed Topiwalla
+                         <span>||</span> 
+                         Code at: <a href="https://github.com/mmd52" title="free css templates" target="_blank">Github</a></p>
+                    </div>
+               </div>
+
+			
+			
+		</div>
+	</div>
+</footer>
+
+
+<!-- Modal Contact -->
+
+<div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+     <div class="modal-dialog">
+      <div class="modal-content modal-popup">
+          <div class="modal-header">
+               <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+               <h2 class="modal-title">Contact Form</h2>
+          </div>
+
+               <form action="#" method="post">
+                    <input name="name" type="text" class="form-control" id="name" placeholder="Your Name" required>
+                 	<input name="email" type="email" class="form-control" id="email" placeholder="Email Address" required>
+                 	<textarea name="message" rows="3" class="form-control" id="message" placeholder="Message" required></textarea>
+                    <input name="submit" type="submit" class="form-control" id="submit" value="Send Message">
+               </form>
+          </div>
+     </div>
+</div>
+
+
+<!-- Back top -->
+
+<a href="#" class="go-top"><i class="fa fa-angle-up"></i></a>
+
+
+<!-- SCRIPTS -->
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/magnific-popup-options.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/custom.js"></script>
+
+
+
+</body>
+</html>
